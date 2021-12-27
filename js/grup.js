@@ -1,1 +1,305 @@
-var _0x1b94c1=_0x36a5;function backGrup(){openGrup[_0x36a5(503)]()}function _0x36a5(a,e){var n=_0x233d();return(_0x36a5=function(a,e){return n[a-=383]})(a,e)}function bikinGrup(){var a=_0x36a5;document[a(436)](a(422))[a(433)][a(499)]="none",document[a(436)](a(525))[a(433)][a(499)]=a(425),document[a(436)]("grup-lain")[a(433)][a(499)]=a(425),document.getElementById(a(401)).style.display=a(509)}function submitGrup(){var a=_0x36a5,e=document[a(436)]("input-grup-nama"),n=document[a(436)]("input-grup-info"),t=document[a(436)]("input-grup-password"),r="";if(r=""==n.value||null==n[a(397)]?a(399):n[a(397)],""==e[a(397)]||" "==e[a(397)]||""==t.value||" "==t[a(397)])return alert(a(384));var i=new Date,u={};u[a(430)]=a(491);var c=u,d={month:"2-digit"},o=d,s={};s.year=a(491);var l=s,p=i.toLocaleDateString("en-US",c),v=i[a(501)]("en-US",o),m=i[a(501)](a(405),l)+v+p+i.getHours()+i[a(408)]()+i.getSeconds()+i.getMilliseconds();grupkey=m,rdb[a(386)]("grup")[a(439)](m).set({Nama:e.value,Info:r,Password:t.value,UID:m,Author:auth[a(480)].uid}),openGrup[a(503)](),e.value="",t[a(397)]=""}!function(a,e){for(var n=_0x36a5,t=_0x233d();;)try{if(329525===parseInt(n(505))/1+-parseInt(n(514))/2+-parseInt(n(415))/3*(-parseInt(n(457))/4)+-parseInt(n(426))/5*(-parseInt(n(449))/6)+-parseInt(n(522))/7*(-parseInt(n(444))/8)+parseInt(n(511))/9*(-parseInt(n(452))/10)+parseInt(n(396))/11*(-parseInt(n(427))/12))break;t.push(t.shift())}catch(a){t.push(t.shift())}}();var grupkey="";function kirimPesanGrup(a,e,n){var t=_0x36a5;nmCepe=!1,grupChange(),grupkey=e;var r=document[t(436)]("grup-password");document[t(436)]("grup-err").innerHTML="",r[t(397)]===n?(document[t(469)](t(453))[t(414)](0,1e5),deteksiChat(),r[t(397)]="",openGrup[t(503)](),loadmessageGrup(a,e)):setTimeout(()=>{var a=t;document.getElementById(a(410))[a(478)]="Password Salah"},500)}function loadmessageGrup(a,e){var n=_0x36a5;document[n(436)]("cepe-nama")[n(478)]=a,rdb.ref(n(497)).child(e).on("value",a=>{var t=n,r="";grupkey=e,a[t(523)](a=>{var n=t,i=a[n(467)](),u="",c=i[n(468)],d=n(390),o=n(475);u=-1!==i[n(392)].indexOf(d)?n(479)+i[n(392)]+n(490):-1!==i[n(392)][n(506)](o)?'<audio controls controlsList="nodownload"><source src="'+i[n(392)]+n(416):i[n(392)],c==auth[n(480)][n(383)]?i[n(392)]==n(496)?(r+='<div class="untai-kita" id="'+a[n(461)]+'">\n                <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>\n                </div>',document[n(469)](n(453))[n(414)](0,1e5)):(r+=n(445)+a[n(461)]+n(504)+i[n(464)]+n(485)+u+n(450)+i.Jam+" <i onclick=\"hapusChatGrup('"+e+n(448)+a[n(461)]+n(482),document[n(469)](n(453))[n(414)](0,1e5)):i[n(392)]==n(496)?(r+='<div class="untai-lain" id="'+a.key+n(429)+i[n(431)]+'</div>\n                <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>\n                </div>',document[n(469)](".middle").scrollBy(0,1e5)):(r+=n(460)+a[n(461)]+n(429)+i[n(431)]+n(485)+u+'</div>\n                <div class="gl-era-lain">'+i.Tanggal+" • "+i[n(437)]+n(512),document[n(469)](n(453))[n(414)](0,1e5))}),document[t(436)](t(508))[t(478)]=r,rdb.ref("chatGrup").child(e).on("child_changed",a=>{var e=t;document.getElementById(""+a[e(461)]).innerHTML=e(420)+a[e(467)]().Nama+'</div> <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>'}),document[t(469)](t(453))[t(414)](0,1e5)});var t={};t.last=n(441),t[n(435)]=e,t[n(404)]=a,rdb[n(386)](n(417))[n(439)](auth[n(480)][n(383)])[n(432)](t)}document[_0x1b94c1(436)](_0x1b94c1(513))[_0x1b94c1(470)]=function(){var a=_0x1b94c1,e=document[a(436)]("input-chatGP");if(""!=e[a(397)]&&" "!=e.value&&"  "!=e.value&&e[a(397)]!=a(407)&&e[a(397)]!=a(413)){var n=new Date,t={};t[a(430)]=a(491);var r=t,i=["Jan",a(465),a(400),"Apr",a(459),a(428),a(458),a(388),a(393),a(507),a(495),a(473)],u={};u.year=a(387);var c=u,d=n[a(501)](a(405),r)+" "+i[n[a(521)]()]+" "+n[a(501)]("en-US",c),o={};o[a(483)]="numeric",o[a(486)]=a(387),o[a(455)]=!1;var s=(new Date)[a(498)]("en-US",o);rdb[a(386)](a(417))[a(439)](auth[a(480)].uid).on(a(397),n=>{var t=a,r=n[t(467)]()[t(431)],i={};i.Nama=r,i.Tanggal=d,i[t(437)]=s,i.UID=auth[t(480)][t(383)],i[t(392)]=e[t(397)],rdb[t(386)]("chatGrup").child(grupkey)[t(394)](i).then(()=>{var a=t;document[a(436)](a(513))[a(433)][a(499)]="none",document.getElementById(a(474)).style.display=a(462)})}),e[a(397)]=""}},document[_0x1b94c1(436)](_0x1b94c1(477))[_0x1b94c1(454)](_0x1b94c1(515),a=>{var e=_0x1b94c1;a.key===e(492)&&document[e(436)](e(513))[e(503)]()}),document[_0x1b94c1(436)](_0x1b94c1(477)).onkeyup=function(){var a=_0x1b94c1;""!==this[a(397)]?(document.getElementById("btn-sendGP")[a(385)](a(433)),document[a(436)]("btn-voiceGP").setAttribute(a(433),"display: none;")):(document[a(436)](a(474))[a(385)](a(433)),document.getElementById(a(513))[a(434)]("style",a(395)))},document[_0x1b94c1(436)]("btn-pictGP").onclick=function(){var a=_0x1b94c1;document[a(436)](a(440)).click()},document[_0x1b94c1(436)]("input-pictGP")[_0x1b94c1(493)]=function(){var a=_0x1b94c1,e=document[a(436)]("input-pictGP").files[0],n=auth[a(480)][a(383)];if(!e[a(518)][a(419)](a(510)))return alert("Dilarang Pilih Selain File Gambar!!!");var t=stg[a(386)]("gambarGrup/"+n+"/"+e[a(406)]).put(e);document[a(436)]("middle")[a(478)]+=a(451),document[a(469)](a(453))[a(414)](0,1e5),t.on(a(466),()=>{var e=a;console.log(e(524))},e=>{alert(e[a(446)])},()=>{var e=a;document[e(436)]("untai-upload").remove(),t[e(494)].ref[e(519)]()[e(418)](a=>{var n=e;rdb[n(386)]("users")[n(439)](auth[n(480)].uid).on(n(397),e=>{var t=n,r=e[t(467)]()[t(431)],i=new Date,u={};u[t(430)]=t(491);var c=u,d=[t(443),t(465),t(400),t(463),t(459),t(428),t(458),t(388),t(393),t(507),t(495),t(473)],o={year:"numeric"},s=o,l=i[t(501)](t(405),c)+" "+d[i[t(521)]()]+" "+i.toLocaleDateString(t(405),s),p={};p.hour=t(387),p[t(486)]="numeric",p.hour12=!1;var v=(new Date)[t(498)](t(405),p),m={};m[t(431)]=r,m[t(464)]=l,m[t(437)]=v,m[t(468)]=auth[t(480)][t(383)],m[t(392)]=a,rdb[t(386)](t(497))[t(439)](grupkey)[t(394)](m)})})[e(418)](()=>{var a=e;window.location[a(500)]()})})};let recorder3,chunks3=[];var timeout3;function hapusChatGrup(a,e){var n=_0x1b94c1;rdb[n(386)](n(417))[n(439)](auth.currentUser[n(383)]).on(n(397),t=>{var r=n;rdb.ref("chatGrup/"+a)[r(439)](e)[r(471)]({Nama:t[r(467)]()[r(431)],Pesan:"2w5STxSYSVF8BcQFJBNWyy4QE",UID:auth.currentUser[r(383)]})})}function bubarGrup(a,e,n){var t=_0x1b94c1,r=document[t(436)](t(447)),i=document[t(436)](t(410));i[t(478)]="",setTimeout(()=>{var u=t;if(n==auth.currentUser[u(383)]){if(r[u(397)]!=e)return""==r[u(397)]?void(i[u(478)]="Masukkan password terlebih dahulu untuk membubarkan grup"):void(i[u(478)]=u(476));rdb[u(386)](u(441))[u(439)](a).remove(),rdb[u(386)](u(497))[u(439)](a)[u(487)](),i.innerHTML=u(472),openGrup[u(503)]()}else i[u(478)]="Maaf, kamu bukan pembuat grup ini.. Jadi ga bisa hapus ya"},1e3)}function _0x233d(){var a=["Password Grup Salah","input-chatGP","innerHTML",'<img src="',"currentUser",'<div class="untai-kita" id="untai-upload"><div class="pesan-chat" id="pesan-chat">Sedang Mengirim VN..</div></div>','\')" class="fas fa-trash-alt" style="color: red; cursor: pointer;"></i></div>\n                </div>',"hour","stop",'</div>\n                <div class="pesan-chat" id="pesan-chat">',"minute","remove","fa fa-stop","state",'"/>',"2-digit","Enter","onchange","snapshot","Nov","2w5STxSYSVF8BcQFJBNWyy4QE","chatGrup","toLocaleString","display","reload","toLocaleDateString","data","click",'">\n                <div class="tanggal-kita" id="tanggal-kita">',"306645GnJjPq","indexOf","Okt","middle","block","image/*","2491587rzVevM","</div>\n                </div>","btn-sendGP","505838xjszaG","keypress","getSeconds","suaraGrup/","type","getDownloadURL","location","getMonth","3598rqMhtH","forEach","Mengupload","tambah-grup","uid","Harap Isi Nama dan Password Grup","removeAttribute","ref","numeric","Agu","log","/gambarGrup","ondataavailable","Pesan","Sep","push","display: none;","22jNbJri","value","load","8sd8w028wg09","Mar","create-grup","start","class","temanNama","en-US","name","   ","getMinutes","put","grup-err","audio","mikGP","    ","scrollBy","113733eVPVlH",'" type="audio/ogg"></audio>',"users","then","match",'<div class="gl-nama-lain" id="nama-lain">',"readAsDataURL","grup-cari","getUserMedia","month","none","41435nblPGR","2484204pdpeis","Jun",'">\n                <div class="gl-nama-lain" id="nama-lain">',"day","Nama","update","style","setAttribute","room","getElementById","Jam","year","child","input-pictGP","grup","getAttribute","Jan","4392upNKcF",'<div class="untai-kita" id="',"message","grup-password","', '","276OYWcGR",'</div>\n                    <div class="jam-kita" id="jam-kita">','<div class="untai-kita" id="untai-upload"><div class="pesan-chat" id="pesan-chat">Sedang Mengupload..</div></div>',"10WAOGJO",".middle","addEventListener","hour12","audio/webm","32fFTPZa","Jul","Mei",'<div class="untai-lain" id="',"key","inline","Apr","Tanggal","Feb","state_changed","val","UID","querySelector","onclick","set","Berhasil Membubarkan Grup","Des","btn-voiceGP","/suaraGrup"];return(_0x233d=function(){return a})()}document[_0x1b94c1(436)](_0x1b94c1(474))[_0x1b94c1(470)]=function(){var a=_0x1b94c1,e=document[a(436)](a(412)),n={};n[a(411)]=!0,navigator.mediaDevices[a(423)](n)[a(418)](n=>{var t=a;void 0===recorder3&&((recorder3=new MediaRecorder(n))[t(391)]=(a=>{var e=t;if(chunks3[e(394)](a.data),"inactive"===recorder3[e(489)]){var n={};n[e(518)]=e(456);let t=new Blob(chunks3,n);var r=new FileReader;r[e(454)](e(398),function(){var n=e;document.getElementById(n(508)).innerHTML+=n(481),document[n(469)](n(453)).scrollBy(0,1e5);var t=new Date,r={};r[n(483)]=n(387),r[n(486)]=n(387),r[n(455)]=!1;var i=t[n(498)](n(405),r),u={};u[n(430)]=n(491);var c=u,d={};d[n(424)]=n(491);var o=d,s=[n(443),n(465),n(400),"Apr",n(459),n(428),"Jul",n(388),n(393),n(507),n(495),n(473)],l={};l.year=n(491);var p=l,v={};v[n(438)]="numeric";var m=v,g=t[n(501)]("en-US",c),h=t[n(501)](n(405),o),b=t.toLocaleDateString(n(405),p),f=s[t[n(521)]()],y=t[n(501)](n(405),m),k=t[n(516)](),x=t.getMilliseconds(),G=g+" "+f+" "+y,_=g+"_"+h+"_"+b+"-"+i+":"+k+"_"+x,w=stg[n(386)](n(517)+auth[n(480)][n(383)]+"/"+_+".opus")[n(409)](a[n(502)]);w.on(n(466),function(a){},function(a){console[n(389)](a.message)},function(){var a=n;document[a(436)]("untai-upload")[a(487)](),w[a(494)].ref[a(519)]()[a(418)](e=>{var n=a;rdb[n(386)]("users")[n(439)](auth[n(480)][n(383)]).on(n(397),a=>{var t=n,r=a.val()[t(431)],u={};u[t(437)]=i,u.UID=auth[t(480)][t(383)],u[t(464)]=G,u[t(431)]=r,u.Pesan=e,firebase.database().ref("chatGrup")[t(439)](grupkey).push(u)})})[a(418)](()=>{var e=a;window[e(520)][e(500)]()})})},!1),r[e(421)](t)}}),recorder3[t(402)](),e[t(434)]("class","fas fa-stop"))}),void 0!==recorder3&&(-1!==e[a(442)](a(403))[a(506)](a(484))?(recorder3.stop(),e[a(434)](a(403),"fa fa-microphone-alt")):(chunks3=[],recorder3[a(402)](),e[a(434)]("class",a(488))))};var _0x1b94c1=_0x36a5;function backGrup(){openGrup[_0x36a5(503)]()}function _0x36a5(a,e){var n=_0x233d();return(_0x36a5=function(a,e){return n[a-=383]})(a,e)}function bikinGrup(){var a=_0x36a5;document[a(436)](a(422))[a(433)][a(499)]="none",document[a(436)](a(525))[a(433)][a(499)]=a(425),document[a(436)]("grup-lain")[a(433)][a(499)]=a(425),document.getElementById(a(401)).style.display=a(509)}function submitGrup(){var a=_0x36a5,e=document[a(436)]("input-grup-nama"),n=document[a(436)]("input-grup-info"),t=document[a(436)]("input-grup-password"),r="";if(r=""==n.value||null==n[a(397)]?a(399):n[a(397)],""==e[a(397)]||" "==e[a(397)]||""==t.value||" "==t[a(397)])return alert(a(384));var i=new Date,u={};u[a(430)]=a(491);var c=u,d={month:"2-digit"},o=d,s={};s.year=a(491);var l=s,p=i.toLocaleDateString("en-US",c),v=i[a(501)]("en-US",o),m=i[a(501)](a(405),l)+v+p+i.getHours()+i[a(408)]()+i.getSeconds()+i.getMilliseconds();grupkey=m,rdb[a(386)]("grup")[a(439)](m).set({Nama:e.value,Info:r,Password:t.value,UID:m,Author:auth[a(480)].uid}),openGrup[a(503)](),e.value="",t[a(397)]=""}!function(a,e){for(var n=_0x36a5,t=_0x233d();;)try{if(329525===parseInt(n(505))/1+-parseInt(n(514))/2+-parseInt(n(415))/3*(-parseInt(n(457))/4)+-parseInt(n(426))/5*(-parseInt(n(449))/6)+-parseInt(n(522))/7*(-parseInt(n(444))/8)+parseInt(n(511))/9*(-parseInt(n(452))/10)+parseInt(n(396))/11*(-parseInt(n(427))/12))break;t.push(t.shift())}catch(a){t.push(t.shift())}}();var grupkey="";function kirimPesanGrup(a,e,n){var t=_0x36a5;nmCepe=!1,grupChange(),grupkey=e;var r=document[t(436)]("grup-password");document[t(436)]("grup-err").innerHTML="",r[t(397)]===n?(document[t(469)](t(453))[t(414)](0,1e5),deteksiChat(),r[t(397)]="",openGrup[t(503)](),loadmessageGrup(a,e)):setTimeout(()=>{var a=t;document.getElementById(a(410))[a(478)]="Password Salah"},500)}function loadmessageGrup(a,e){var n=_0x36a5;document[n(436)]("cepe-nama")[n(478)]=a,rdb.ref(n(497)).child(e).on("value",a=>{var t=n,r="";grupkey=e,a[t(523)](a=>{var n=t,i=a[n(467)](),u="",c=i[n(468)],d=n(390),o=n(475);u=-1!==i[n(392)].indexOf(d)?n(479)+i[n(392)]+n(490):-1!==i[n(392)][n(506)](o)?'<audio controls controlsList="nodownload"><source src="'+i[n(392)]+n(416):i[n(392)],c==auth[n(480)][n(383)]?i[n(392)]==n(496)?(r+='<div class="untai-kita" id="'+a[n(461)]+'">\n                <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>\n                </div>',document[n(469)](n(453))[n(414)](0,1e5)):(r+=n(445)+a[n(461)]+n(504)+i[n(464)]+n(485)+u+n(450)+i.Jam+" <i onclick=\"hapusChatGrup('"+e+n(448)+a[n(461)]+n(482),document[n(469)](n(453))[n(414)](0,1e5)):i[n(392)]==n(496)?(r+='<div class="untai-lain" id="'+a.key+n(429)+i[n(431)]+'</div>\n                <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>\n                </div>',document[n(469)](".middle").scrollBy(0,1e5)):(r+=n(460)+a[n(461)]+n(429)+i[n(431)]+n(485)+u+'</div>\n                <div class="gl-era-lain">'+i.Tanggal+" • "+i[n(437)]+n(512),document[n(469)](n(453))[n(414)](0,1e5))}),document[t(436)](t(508))[t(478)]=r,rdb.ref("chatGrup").child(e).on("child_changed",a=>{var e=t;document.getElementById(""+a[e(461)]).innerHTML=e(420)+a[e(467)]().Nama+'</div> <div class="pesan-chat" id="pesan-chat" style="color: #448000; font-style: italic;">Pesan Telah Dihapus</div>'}),document[t(469)](t(453))[t(414)](0,1e5)});var t={};t.last=n(441),t[n(435)]=e,t[n(404)]=a,rdb[n(386)](n(417))[n(439)](auth[n(480)][n(383)])[n(432)](t)}document[_0x1b94c1(436)](_0x1b94c1(513))[_0x1b94c1(470)]=function(){var a=_0x1b94c1,e=document[a(436)]("input-chatGP");if(""!=e[a(397)]&&" "!=e.value&&"  "!=e.value&&e[a(397)]!=a(407)&&e[a(397)]!=a(413)){var n=new Date,t={};t[a(430)]=a(491);var r=t,i=["Jan",a(465),a(400),"Apr",a(459),a(428),a(458),a(388),a(393),a(507),a(495),a(473)],u={};u.year=a(387);var c=u,d=n[a(501)](a(405),r)+" "+i[n[a(521)]()]+" "+n[a(501)]("en-US",c),o={};o[a(483)]="numeric",o[a(486)]=a(387),o[a(455)]=!1;var s=(new Date)[a(498)]("en-US",o);rdb[a(386)](a(417))[a(439)](auth[a(480)].uid).on(a(397),n=>{var t=a,r=n[t(467)]()[t(431)],i={};i.Nama=r,i.Tanggal=d,i[t(437)]=s,i.UID=auth[t(480)][t(383)],i[t(392)]=e[t(397)],rdb[t(386)]("chatGrup").child(grupkey)[t(394)](i).then(()=>{var a=t;document[a(436)](a(513))[a(433)][a(499)]="none",document.getElementById(a(474)).style.display=a(462)})}),e[a(397)]=""}},document[_0x1b94c1(436)](_0x1b94c1(477))[_0x1b94c1(454)](_0x1b94c1(515),a=>{var e=_0x1b94c1;a.key===e(492)&&document[e(436)](e(513))[e(503)]()}),document[_0x1b94c1(436)](_0x1b94c1(477)).onkeyup=function(){var a=_0x1b94c1;""!==this[a(397)]?(document.getElementById("btn-sendGP")[a(385)](a(433)),document[a(436)]("btn-voiceGP").setAttribute(a(433),"display: none;")):(document[a(436)](a(474))[a(385)](a(433)),document.getElementById(a(513))[a(434)]("style",a(395)))},document[_0x1b94c1(436)]("btn-pictGP").onclick=function(){var a=_0x1b94c1;document[a(436)](a(440)).click()},document[_0x1b94c1(436)]("input-pictGP")[_0x1b94c1(493)]=function(){var a=_0x1b94c1,e=document[a(436)]("input-pictGP").files[0],n=auth[a(480)][a(383)];if(!e[a(518)][a(419)](a(510)))return alert("Dilarang Pilih Selain File Gambar!!!");var t=stg[a(386)]("gambarGrup/"+n+"/"+e[a(406)]).put(e);document[a(436)]("middle")[a(478)]+=a(451),document[a(469)](a(453))[a(414)](0,1e5),t.on(a(466),()=>{var e=a;console.log(e(524))},e=>{alert(e[a(446)])},()=>{var e=a;document[e(436)]("untai-upload").remove(),t[e(494)].ref[e(519)]()[e(418)](a=>{var n=e;rdb[n(386)]("users")[n(439)](auth[n(480)].uid).on(n(397),e=>{var t=n,r=e[t(467)]()[t(431)],i=new Date,u={};u[t(430)]=t(491);var c=u,d=[t(443),t(465),t(400),t(463),t(459),t(428),t(458),t(388),t(393),t(507),t(495),t(473)],o={year:"numeric"},s=o,l=i[t(501)](t(405),c)+" "+d[i[t(521)]()]+" "+i.toLocaleDateString(t(405),s),p={};p.hour=t(387),p[t(486)]="numeric",p.hour12=!1;var v=(new Date)[t(498)](t(405),p),m={};m[t(431)]=r,m[t(464)]=l,m[t(437)]=v,m[t(468)]=auth[t(480)][t(383)],m[t(392)]=a,rdb[t(386)](t(497))[t(439)](grupkey)[t(394)](m)})})[e(418)](()=>{var a=e;window.location[a(500)]()})})};let recorder3,chunks3=[];var timeout3;function hapusChatGrup(a,e){var n=_0x1b94c1;rdb[n(386)](n(417))[n(439)](auth.currentUser[n(383)]).on(n(397),t=>{var r=n;rdb.ref("chatGrup/"+a)[r(439)](e)[r(471)]({Nama:t[r(467)]()[r(431)],Pesan:"2w5STxSYSVF8BcQFJBNWyy4QE",UID:auth.currentUser[r(383)]})})}function bubarGrup(a,e,n){var t=_0x1b94c1,r=document[t(436)](t(447)),i=document[t(436)](t(410));i[t(478)]="",setTimeout(()=>{var u=t;if(n==auth.currentUser[u(383)]){if(r[u(397)]!=e)return""==r[u(397)]?void(i[u(478)]="Masukkan password terlebih dahulu untuk membubarkan grup"):void(i[u(478)]=u(476));rdb[u(386)](u(441))[u(439)](a).remove(),rdb[u(386)](u(497))[u(439)](a)[u(487)](),i.innerHTML=u(472),openGrup[u(503)]()}else i[u(478)]="Maaf, kamu bukan pembuat grup ini.. Jadi ga bisa hapus ya"},1e3)}function _0x233d(){var a=["Password Grup Salah","input-chatGP","innerHTML",'<img src="',"currentUser",'<div class="untai-kita" id="untai-upload"><div class="pesan-chat" id="pesan-chat">Sedang Mengirim VN..</div></div>','\')" class="fas fa-trash-alt" style="color: red; cursor: pointer;"></i></div>\n                </div>',"hour","stop",'</div>\n                <div class="pesan-chat" id="pesan-chat">',"minute","remove","fa fa-stop","state",'"/>',"2-digit","Enter","onchange","snapshot","Nov","2w5STxSYSVF8BcQFJBNWyy4QE","chatGrup","toLocaleString","display","reload","toLocaleDateString","data","click",'">\n                <div class="tanggal-kita" id="tanggal-kita">',"306645GnJjPq","indexOf","Okt","middle","block","image/*","2491587rzVevM","</div>\n                </div>","btn-sendGP","505838xjszaG","keypress","getSeconds","suaraGrup/","type","getDownloadURL","location","getMonth","3598rqMhtH","forEach","Mengupload","tambah-grup","uid","Harap Isi Nama dan Password Grup","removeAttribute","ref","numeric","Agu","log","/gambarGrup","ondataavailable","Pesan","Sep","push","display: none;","22jNbJri","value","load","8sd8w028wg09","Mar","create-grup","start","class","temanNama","en-US","name","   ","getMinutes","put","grup-err","audio","mikGP","    ","scrollBy","113733eVPVlH",'" type="audio/ogg"></audio>',"users","then","match",'<div class="gl-nama-lain" id="nama-lain">',"readAsDataURL","grup-cari","getUserMedia","month","none","41435nblPGR","2484204pdpeis","Jun",'">\n                <div class="gl-nama-lain" id="nama-lain">',"day","Nama","update","style","setAttribute","room","getElementById","Jam","year","child","input-pictGP","grup","getAttribute","Jan","4392upNKcF",'<div class="untai-kita" id="',"message","grup-password","', '","276OYWcGR",'</div>\n                    <div class="jam-kita" id="jam-kita">','<div class="untai-kita" id="untai-upload"><div class="pesan-chat" id="pesan-chat">Sedang Mengupload..</div></div>',"10WAOGJO",".middle","addEventListener","hour12","audio/webm","32fFTPZa","Jul","Mei",'<div class="untai-lain" id="',"key","inline","Apr","Tanggal","Feb","state_changed","val","UID","querySelector","onclick","set","Berhasil Membubarkan Grup","Des","btn-voiceGP","/suaraGrup"];return(_0x233d=function(){return a})()}document[_0x1b94c1(436)](_0x1b94c1(474))[_0x1b94c1(470)]=function(){var a=_0x1b94c1,e=document[a(436)](a(412)),n={};n[a(411)]=!0,navigator.mediaDevices[a(423)](n)[a(418)](n=>{var t=a;void 0===recorder3&&((recorder3=new MediaRecorder(n))[t(391)]=(a=>{var e=t;if(chunks3[e(394)](a.data),"inactive"===recorder3[e(489)]){var n={};n[e(518)]=e(456);let t=new Blob(chunks3,n);var r=new FileReader;r[e(454)](e(398),function(){var n=e;document.getElementById(n(508)).innerHTML+=n(481),document[n(469)](n(453)).scrollBy(0,1e5);var t=new Date,r={};r[n(483)]=n(387),r[n(486)]=n(387),r[n(455)]=!1;var i=t[n(498)](n(405),r),u={};u[n(430)]=n(491);var c=u,d={};d[n(424)]=n(491);var o=d,s=[n(443),n(465),n(400),"Apr",n(459),n(428),"Jul",n(388),n(393),n(507),n(495),n(473)],l={};l.year=n(491);var p=l,v={};v[n(438)]="numeric";var m=v,g=t[n(501)]("en-US",c),h=t[n(501)](n(405),o),b=t.toLocaleDateString(n(405),p),f=s[t[n(521)]()],y=t[n(501)](n(405),m),k=t[n(516)](),x=t.getMilliseconds(),G=g+" "+f+" "+y,_=g+"_"+h+"_"+b+"-"+i+":"+k+"_"+x,w=stg[n(386)](n(517)+auth[n(480)][n(383)]+"/"+_+".opus")[n(409)](a[n(502)]);w.on(n(466),function(a){},function(a){console[n(389)](a.message)},function(){var a=n;document[a(436)]("untai-upload")[a(487)](),w[a(494)].ref[a(519)]()[a(418)](e=>{var n=a;rdb[n(386)]("users")[n(439)](auth[n(480)][n(383)]).on(n(397),a=>{var t=n,r=a.val()[t(431)],u={};u[t(437)]=i,u.UID=auth[t(480)][t(383)],u[t(464)]=G,u[t(431)]=r,u.Pesan=e,firebase.database().ref("chatGrup")[t(439)](grupkey).push(u)})})[a(418)](()=>{var e=a;window[e(520)][e(500)]()})})},!1),r[e(421)](t)}}),recorder3[t(402)](),e[t(434)]("class","fas fa-stop"))}),void 0!==recorder3&&(-1!==e[a(442)](a(403))[a(506)](a(484))?(recorder3.stop(),e[a(434)](a(403),"fa fa-microphone-alt")):(chunks3=[],recorder3[a(402)](),e[a(434)]("class",a(488))))};
+var _0x1b94c1 = _0x36a5;
+(function(_0x3f33c5, _0x2724f1) {
+    var _0x56bd66 = _0x36a5,
+        _0x17a7f3 = _0x3f33c5();
+    while (!![]) {
+        try {
+            var _0x579a5f = parseInt(_0x56bd66(0x1f9)) / (-0x26 * 0xdf + -0x17 * -0x93 + -0x6a2 * -0x3) + -parseInt(_0x56bd66(0x202)) / (0x3 * -0x3be + -0xe7d + 0x5 * 0x525) + -parseInt(_0x56bd66(0x19f)) / (-0x4 * -0x5b + 0xeab + -0x1014) * (-parseInt(_0x56bd66(0x1c9)) / (0xe9d + 0x1 * -0x2566 + -0x1 * -0x16cd)) + -parseInt(_0x56bd66(0x1aa)) / (-0x31 * -0x62 + -0x181d + 0x560) * (-parseInt(_0x56bd66(0x1c1)) / (-0xf * 0x10b + 0x1 * -0xd2b + 0x1cd6)) + -parseInt(_0x56bd66(0x20a)) / (0x803 * -0x1 + -0x142d + 0x1c37) * (-parseInt(_0x56bd66(0x1bc)) / (-0x1be2 + 0x9be + 0x122c)) + parseInt(_0x56bd66(0x1ff)) / (0x1973 + 0x135a + -0x2cc4) * (-parseInt(_0x56bd66(0x1c4)) / (-0x241b + 0xb96 + 0x188f * 0x1)) + parseInt(_0x56bd66(0x18c)) / (-0x18d3 + -0xcc5 + 0x25a3) * (-parseInt(_0x56bd66(0x1ab)) / (-0x19c3 + 0xab9 + -0x78b * -0x2));
+            if (_0x579a5f === _0x2724f1) break;
+            else _0x17a7f3['push'](_0x17a7f3['shift']());
+        } catch (_0x223877) {
+            _0x17a7f3['push'](_0x17a7f3['shift']());
+        }
+    }
+}(_0x233d, 0x95b2e + -0x2 * 0x38792 + -0x1 * -0x2bb2b));
+
+function backGrup() {
+    var _0x2ecf62 = _0x36a5;
+    openGrup[_0x2ecf62(0x1f7)]();
+}
+
+function _0x36a5(_0x554104, _0x3aeed4) {
+    var _0x49b43d = _0x233d();
+    return _0x36a5 = function(_0x519a27, _0x3af68f) {
+        _0x519a27 = _0x519a27 - (0x259a + 0x1 * 0x47a + 0x1 * -0x2895);
+        var _0x9b6a6b = _0x49b43d[_0x519a27];
+        return _0x9b6a6b;
+    }, _0x36a5(_0x554104, _0x3aeed4);
+}
+
+function bikinGrup() {
+    var _0x56b8f1 = _0x36a5;
+    document[_0x56b8f1(0x1b4)](_0x56b8f1(0x1a6))[_0x56b8f1(0x1b1)][_0x56b8f1(0x1f3)] = 'none', document[_0x56b8f1(0x1b4)](_0x56b8f1(0x20d))[_0x56b8f1(0x1b1)][_0x56b8f1(0x1f3)] = _0x56b8f1(0x1a9), document[_0x56b8f1(0x1b4)]('grup-lain')[_0x56b8f1(0x1b1)][_0x56b8f1(0x1f3)] = _0x56b8f1(0x1a9), document['getElementById'](_0x56b8f1(0x191))['style']['display'] = _0x56b8f1(0x1fd);
+}
+
+function submitGrup() {
+    var _0x25ee8b = _0x36a5,
+        _0x342aa1 = document[_0x25ee8b(0x1b4)]('input-grup-nama'),
+        _0x572836 = document[_0x25ee8b(0x1b4)]('input-grup-info'),
+        _0x376036 = document[_0x25ee8b(0x1b4)]('input-grup-password'),
+        _0x1a7390 = '';
+    _0x572836['value'] == '' || _0x572836[_0x25ee8b(0x18d)] == null ? _0x1a7390 = _0x25ee8b(0x18f) : _0x1a7390 = _0x572836[_0x25ee8b(0x18d)];
+    if (_0x342aa1[_0x25ee8b(0x18d)] == '' || _0x342aa1[_0x25ee8b(0x18d)] == '\x20' || _0x376036['value'] == '' || _0x376036[_0x25ee8b(0x18d)] == '\x20') return alert(_0x25ee8b(0x180));
+    var _0x3bee8c = new Date(),
+        _0x3c9876 = {};
+    _0x3c9876[_0x25ee8b(0x1ae)] = _0x25ee8b(0x1eb);
+    var _0x1d19a1 = _0x3c9876,
+        _0x48bd5a = {};
+    _0x48bd5a['month'] = '2-digit';
+    var _0x3998a8 = _0x48bd5a,
+        _0x5592d5 = {};
+    _0x5592d5['year'] = _0x25ee8b(0x1eb);
+    var _0x1d797f = _0x5592d5,
+        _0x2d11ce = _0x3bee8c['toLocaleDateString']('en-US', _0x1d19a1),
+        _0x3149e4 = _0x3bee8c[_0x25ee8b(0x1f5)]('en-US', _0x3998a8),
+        _0x2c949a = _0x3bee8c[_0x25ee8b(0x1f5)](_0x25ee8b(0x195), _0x1d797f),
+        _0x3ad5ed = _0x3bee8c['getHours'](),
+        _0x4aaa06 = _0x3bee8c[_0x25ee8b(0x198)](),
+        _0x492400 = _0x3bee8c['getSeconds'](),
+        _0xb6939e = _0x3bee8c['getMilliseconds'](),
+        _0x986e93 = _0x2c949a + _0x3149e4 + _0x2d11ce + _0x3ad5ed + _0x4aaa06 + _0x492400 + _0xb6939e;
+    grupkey = _0x986e93, rdb[_0x25ee8b(0x182)]('grup')[_0x25ee8b(0x1b7)](_0x986e93)['set']({
+        'Nama': _0x342aa1['value'],
+        'Info': _0x1a7390,
+        'Password': _0x376036['value'],
+        'UID': _0x986e93,
+        'Author': auth[_0x25ee8b(0x1e0)]['uid']
+    }), openGrup[_0x25ee8b(0x1f7)](), _0x342aa1['value'] = '', _0x376036[_0x25ee8b(0x18d)] = '';
+}
+var grupkey = '';
+
+function kirimPesanGrup(_0x9e5aa9, _0x5024c9, _0x397817) {
+    var _0x50e9c6 = _0x36a5;
+    nmCepe = ![], grupChange(), grupkey = _0x5024c9;
+    var _0x8d8511 = document[_0x50e9c6(0x1b4)]('grup-password');
+    document[_0x50e9c6(0x1b4)]('grup-err')['innerHTML'] = '';
+    if (_0x8d8511[_0x50e9c6(0x18d)] !== _0x397817) {
+        setTimeout(() => {
+            var _0x287c1d = _0x50e9c6;
+            document['getElementById'](_0x287c1d(0x19a))[_0x287c1d(0x1de)] = 'Password\x20Salah';
+        }, -0x7 * 0x4a9 + -0xd59 + 0x2fec);
+        return;
+    } else document[_0x50e9c6(0x1d5)](_0x50e9c6(0x1c5))[_0x50e9c6(0x19e)](-0x137b + -0x1 * -0x170d + -0x2 * 0x1c9, -0xc * 0x1331 + -0x135b7 + 0x3a2a3), deteksiChat(), _0x8d8511[_0x50e9c6(0x18d)] = '', openGrup[_0x50e9c6(0x1f7)]();
+    loadmessageGrup(_0x9e5aa9, _0x5024c9);
+}
+
+function loadmessageGrup(_0x1880b6, _0x2f7f6c) {
+    var _0x38deab = _0x36a5;
+    document[_0x38deab(0x1b4)]('cepe-nama')[_0x38deab(0x1de)] = _0x1880b6, rdb['ref'](_0x38deab(0x1f1))['child'](_0x2f7f6c)['on']('value', _0x3ab446 => {
+        var _0xd985cf = _0x38deab,
+            _0x13941b = '';
+        grupkey = _0x2f7f6c, _0x3ab446[_0xd985cf(0x20b)](_0x5e934a => {
+            var _0x206419 = _0xd985cf,
+                _0x429b86 = _0x5e934a[_0x206419(0x1d3)](),
+                _0x37f477 = '',
+                _0x4e6bfe = _0x429b86[_0x206419(0x1d4)],
+                _0x4be2e2 = _0x206419(0x186),
+                _0x254a56 = _0x206419(0x1db);
+            if (_0x429b86[_0x206419(0x188)]['indexOf'](_0x4be2e2) !== -(-0x1589 * 0x1 + -0x675 + 0x1bff)) _0x37f477 = _0x206419(0x1df) + _0x429b86[_0x206419(0x188)] + _0x206419(0x1ea);
+            else _0x429b86[_0x206419(0x188)][_0x206419(0x1fa)](_0x254a56) !== -(-0x1 * 0xe53 + 0x3e5 * 0x2 + 0x68a) ? _0x37f477 = '<audio\x20controls\x20controlsList=\x22nodownload\x22><source\x20src=\x22' + _0x429b86[_0x206419(0x188)] + _0x206419(0x1a0) : _0x37f477 = _0x429b86[_0x206419(0x188)];
+            _0x4e6bfe == auth[_0x206419(0x1e0)][_0x206419(0x17f)] ? _0x429b86[_0x206419(0x188)] == _0x206419(0x1f0) ? (_0x13941b += '<div\x20class=\x22untai-kita\x22\x20id=\x22' + _0x5e934a[_0x206419(0x1cd)] + '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22\x20style=\x22color:\x20#448000;\x20font-style:\x20italic;\x22>Pesan\x20Telah\x20Dihapus</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', document[_0x206419(0x1d5)](_0x206419(0x1c5))[_0x206419(0x19e)](-0x725 * 0x1 + -0x482 + 0xba7, -0x4f * 0x16f + -0x232de * -0x1 + -0x3afd)) : (_0x13941b += _0x206419(0x1bd) + _0x5e934a[_0x206419(0x1cd)] + _0x206419(0x1f8) + _0x429b86[_0x206419(0x1d0)] + _0x206419(0x1e5) + _0x37f477 + _0x206419(0x1c2) + _0x429b86['Jam'] + '\x20<i\x20onclick=\x22hapusChatGrup(\x27' + _0x2f7f6c + _0x206419(0x1c0) + _0x5e934a[_0x206419(0x1cd)] + _0x206419(0x1e2), document[_0x206419(0x1d5)](_0x206419(0x1c5))[_0x206419(0x19e)](0x1ab4 + -0x179c * -0x1 + -0x3250, -0x86 * 0x514 + 0x2551b + -0x1 * -0x1d9fd)) : _0x429b86[_0x206419(0x188)] == _0x206419(0x1f0) ? (_0x13941b += '<div\x20class=\x22untai-lain\x22\x20id=\x22' + _0x5e934a['key'] + _0x206419(0x1ad) + _0x429b86[_0x206419(0x1af)] + '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22\x20style=\x22color:\x20#448000;\x20font-style:\x20italic;\x22>Pesan\x20Telah\x20Dihapus</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', document[_0x206419(0x1d5)]('.middle')['scrollBy'](-0x130 * 0x5 + -0x2428 + 0x2a18, 0xd1e0 + 0x1 * -0x1bf5f + 0x58f * 0x71)) : (_0x13941b += _0x206419(0x1cc) + _0x5e934a[_0x206419(0x1cd)] + _0x206419(0x1ad) + _0x429b86[_0x206419(0x1af)] + _0x206419(0x1e5) + _0x37f477 + '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gl-era-lain\x22>' + _0x429b86['Tanggal'] + '\x20•\x20' + _0x429b86[_0x206419(0x1b5)] + _0x206419(0x200), document[_0x206419(0x1d5)](_0x206419(0x1c5))[_0x206419(0x19e)](0x1e0d + -0xb6a + -0x1 * 0x12a3, -0x1 * 0x12e0f + 0x5308 * -0x1 + 0xa13 * 0x4d));
+        }), document[_0xd985cf(0x1b4)](_0xd985cf(0x1fc))[_0xd985cf(0x1de)] = _0x13941b, rdb['ref']('chatGrup')['child'](_0x2f7f6c)['on']('child_changed', _0x558d0a => {
+            var _0x4151ff = _0xd985cf;
+            document['getElementById']('' + _0x558d0a[_0x4151ff(0x1cd)])['innerHTML'] = _0x4151ff(0x1a4) + _0x558d0a[_0x4151ff(0x1d3)]()['Nama'] + '</div>\x20<div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22\x20style=\x22color:\x20#448000;\x20font-style:\x20italic;\x22>Pesan\x20Telah\x20Dihapus</div>';
+        }), document[_0xd985cf(0x1d5)](_0xd985cf(0x1c5))[_0xd985cf(0x19e)](-0x1 * -0x2065 + 0x995 + -0x29fa * 0x1, 0x3081 * -0x9 + -0x27a00 + 0x5b529);
+    });
+    var _0x5360a2 = {};
+    _0x5360a2['last'] = _0x38deab(0x1b9), _0x5360a2[_0x38deab(0x1b3)] = _0x2f7f6c, _0x5360a2[_0x38deab(0x194)] = _0x1880b6, rdb[_0x38deab(0x182)](_0x38deab(0x1a1))[_0x38deab(0x1b7)](auth[_0x38deab(0x1e0)][_0x38deab(0x17f)])[_0x38deab(0x1b0)](_0x5360a2);
+}
+document[_0x1b94c1(0x1b4)](_0x1b94c1(0x201))[_0x1b94c1(0x1d6)] = function() {
+    var _0x31d245 = _0x1b94c1,
+        _0x1f1822 = document[_0x31d245(0x1b4)]('input-chatGP');
+    if (_0x1f1822[_0x31d245(0x18d)] == '' || _0x1f1822['value'] == '\x20' || _0x1f1822['value'] == '\x20\x20' || _0x1f1822[_0x31d245(0x18d)] == _0x31d245(0x197) || _0x1f1822[_0x31d245(0x18d)] == _0x31d245(0x19d)) return;
+    var _0xe5fcf7 = new Date(),
+        _0x3038f3 = {};
+    _0x3038f3[_0x31d245(0x1ae)] = _0x31d245(0x1eb);
+    var _0x522df7 = _0x3038f3,
+        _0x1f2348 = ['Jan', _0x31d245(0x1d1), _0x31d245(0x190), 'Apr', _0x31d245(0x1cb), _0x31d245(0x1ac), _0x31d245(0x1ca), _0x31d245(0x184), _0x31d245(0x189), _0x31d245(0x1fb), _0x31d245(0x1ef), _0x31d245(0x1d9)],
+        _0x417eab = {};
+    _0x417eab['year'] = _0x31d245(0x183);
+    var _0x39f0ac = _0x417eab,
+        _0x5f48f4 = _0xe5fcf7[_0x31d245(0x1f5)](_0x31d245(0x195), _0x522df7),
+        _0x3bb979 = _0x1f2348[_0xe5fcf7[_0x31d245(0x209)]()],
+        _0x16175a = _0xe5fcf7[_0x31d245(0x1f5)]('en-US', _0x39f0ac),
+        _0x36afdd = _0x5f48f4 + '\x20' + _0x3bb979 + '\x20' + _0x16175a,
+        _0x5ae29e = {};
+    _0x5ae29e[_0x31d245(0x1e3)] = 'numeric', _0x5ae29e[_0x31d245(0x1e6)] = _0x31d245(0x183), _0x5ae29e[_0x31d245(0x1c7)] = ![];
+    var _0x5a9fc6 = new Date()[_0x31d245(0x1f2)]('en-US', _0x5ae29e);
+    rdb[_0x31d245(0x182)](_0x31d245(0x1a1))[_0x31d245(0x1b7)](auth[_0x31d245(0x1e0)]['uid'])['on'](_0x31d245(0x18d), _0x44c436 => {
+        var _0x4ace0e = _0x31d245,
+            _0x2ab05d = _0x44c436[_0x4ace0e(0x1d3)]()[_0x4ace0e(0x1af)],
+            _0x54019e = {};
+        _0x54019e['Nama'] = _0x2ab05d, _0x54019e['Tanggal'] = _0x36afdd, _0x54019e[_0x4ace0e(0x1b5)] = _0x5a9fc6, _0x54019e['UID'] = auth[_0x4ace0e(0x1e0)][_0x4ace0e(0x17f)], _0x54019e[_0x4ace0e(0x188)] = _0x1f1822[_0x4ace0e(0x18d)], rdb[_0x4ace0e(0x182)]('chatGrup')['child'](grupkey)[_0x4ace0e(0x18a)](_0x54019e)['then'](() => {
+            var _0x4eca30 = _0x4ace0e;
+            document[_0x4eca30(0x1b4)](_0x4eca30(0x201))[_0x4eca30(0x1b1)][_0x4eca30(0x1f3)] = 'none', document['getElementById'](_0x4eca30(0x1da))['style']['display'] = _0x4eca30(0x1ce);
+        });
+    }), _0x1f1822[_0x31d245(0x18d)] = '';
+}, document[_0x1b94c1(0x1b4)](_0x1b94c1(0x1dd))[_0x1b94c1(0x1c6)](_0x1b94c1(0x203), _0x1f5d9b => {
+    var _0x8c65b1 = _0x1b94c1;
+    _0x1f5d9b['key'] === _0x8c65b1(0x1ec) && document[_0x8c65b1(0x1b4)](_0x8c65b1(0x201))[_0x8c65b1(0x1f7)]();
+}), document[_0x1b94c1(0x1b4)](_0x1b94c1(0x1dd))['onkeyup'] = function() {
+    var _0x180b67 = _0x1b94c1;
+    this[_0x180b67(0x18d)] !== '' ? (document['getElementById']('btn-sendGP')[_0x180b67(0x181)](_0x180b67(0x1b1)), document[_0x180b67(0x1b4)]('btn-voiceGP')['setAttribute'](_0x180b67(0x1b1), 'display:\x20none;')) : (document[_0x180b67(0x1b4)](_0x180b67(0x1da))[_0x180b67(0x181)](_0x180b67(0x1b1)), document['getElementById'](_0x180b67(0x201))[_0x180b67(0x1b2)]('style', _0x180b67(0x18b)));
+}, document[_0x1b94c1(0x1b4)]('btn-pictGP')['onclick'] = function() {
+    var _0x1c8ef2 = _0x1b94c1;
+    document[_0x1c8ef2(0x1b4)](_0x1c8ef2(0x1b8))['click']();
+}, document[_0x1b94c1(0x1b4)]('input-pictGP')[_0x1b94c1(0x1ed)] = function() {
+    var _0x3e708e = _0x1b94c1,
+        _0x565c9e = document[_0x3e708e(0x1b4)]('input-pictGP')['files'][0xa * -0x15d + 0x249a * 0x1 + 0xf5 * -0x18],
+        _0x3dae5b = auth[_0x3e708e(0x1e0)][_0x3e708e(0x17f)];
+    if (!_0x565c9e[_0x3e708e(0x206)][_0x3e708e(0x1a3)](_0x3e708e(0x1fe))) return alert('Dilarang\x20Pilih\x20Selain\x20File\x20Gambar!!!');
+    var _0x1910a9 = stg[_0x3e708e(0x182)]('gambarGrup/' + _0x3dae5b + '/' + _0x565c9e[_0x3e708e(0x196)]),
+        _0x59f256 = _0x1910a9['put'](_0x565c9e);
+    document[_0x3e708e(0x1b4)]('middle')[_0x3e708e(0x1de)] += _0x3e708e(0x1c3), document[_0x3e708e(0x1d5)](_0x3e708e(0x1c5))[_0x3e708e(0x19e)](-0xacf + 0xd36 + -0x267, 0x19e22 + 0xf9 * 0x15 + -0x2bef), _0x59f256['on'](_0x3e708e(0x1d2), () => {
+        var _0x25b2a4 = _0x3e708e;
+        console['log'](_0x25b2a4(0x20c));
+    }, _0x894739 => {
+        var _0x5e7650 = _0x3e708e;
+        alert(_0x894739[_0x5e7650(0x1be)]);
+    }, () => {
+        var _0x36d379 = _0x3e708e;
+        document[_0x36d379(0x1b4)]('untai-upload')['remove'](), _0x59f256[_0x36d379(0x1ee)]['ref'][_0x36d379(0x207)]()[_0x36d379(0x1a2)](_0x4b20c9 => {
+            var _0xdc8c28 = _0x36d379;
+            rdb[_0xdc8c28(0x182)]('users')[_0xdc8c28(0x1b7)](auth[_0xdc8c28(0x1e0)]['uid'])['on'](_0xdc8c28(0x18d), _0x3f9587 => {
+                var _0x3e26fd = _0xdc8c28,
+                    _0x874748 = _0x3f9587[_0x3e26fd(0x1d3)]()[_0x3e26fd(0x1af)],
+                    _0x554282 = new Date(),
+                    _0x5aea98 = {};
+                _0x5aea98[_0x3e26fd(0x1ae)] = _0x3e26fd(0x1eb);
+                var _0x2c590a = _0x5aea98,
+                    _0x5dae78 = [_0x3e26fd(0x1bb), _0x3e26fd(0x1d1), _0x3e26fd(0x190), _0x3e26fd(0x1cf), _0x3e26fd(0x1cb), _0x3e26fd(0x1ac), _0x3e26fd(0x1ca), _0x3e26fd(0x184), _0x3e26fd(0x189), _0x3e26fd(0x1fb), _0x3e26fd(0x1ef), _0x3e26fd(0x1d9)],
+                    _0xe46ba0 = {};
+                _0xe46ba0['year'] = 'numeric';
+                var _0x5192ed = _0xe46ba0,
+                    _0x2c4f4d = _0x554282[_0x3e26fd(0x1f5)](_0x3e26fd(0x195), _0x2c590a),
+                    _0x54a2c3 = _0x5dae78[_0x554282[_0x3e26fd(0x209)]()],
+                    _0x4b5530 = _0x554282['toLocaleDateString'](_0x3e26fd(0x195), _0x5192ed),
+                    _0x538b21 = _0x2c4f4d + '\x20' + _0x54a2c3 + '\x20' + _0x4b5530,
+                    _0x32e915 = {};
+                _0x32e915['hour'] = _0x3e26fd(0x183), _0x32e915[_0x3e26fd(0x1e6)] = 'numeric', _0x32e915['hour12'] = ![];
+                var _0x1e3415 = new Date()[_0x3e26fd(0x1f2)](_0x3e26fd(0x195), _0x32e915),
+                    _0x3a7f7a = {};
+                _0x3a7f7a[_0x3e26fd(0x1af)] = _0x874748, _0x3a7f7a[_0x3e26fd(0x1d0)] = _0x538b21, _0x3a7f7a[_0x3e26fd(0x1b5)] = _0x1e3415, _0x3a7f7a[_0x3e26fd(0x1d4)] = auth[_0x3e26fd(0x1e0)][_0x3e26fd(0x17f)], _0x3a7f7a[_0x3e26fd(0x188)] = _0x4b20c9, rdb[_0x3e26fd(0x182)](_0x3e26fd(0x1f1))[_0x3e26fd(0x1b7)](grupkey)[_0x3e26fd(0x18a)](_0x3a7f7a);
+            });
+        })[_0x36d379(0x1a2)](() => {
+            var _0x1ab362 = _0x36d379;
+            window['location'][_0x1ab362(0x1f4)]();
+            return;
+        });
+    });
+};
+let chunks3 = [],
+    recorder3;
+var timeout3;
+document[_0x1b94c1(0x1b4)](_0x1b94c1(0x1da))[_0x1b94c1(0x1d6)] = function() {
+    var _0x3bd510 = _0x1b94c1,
+        _0x4678e8 = document[_0x3bd510(0x1b4)](_0x3bd510(0x19c)),
+        _0x2ddc52 = {};
+    _0x2ddc52[_0x3bd510(0x19b)] = !![];
+    let _0x5a8de0 = navigator['mediaDevices'][_0x3bd510(0x1a7)](_0x2ddc52);
+    _0x5a8de0[_0x3bd510(0x1a2)](_0x90de15 => {
+        var _0x2c4015 = _0x3bd510;
+        recorder3 === undefined && (recorder3 = new MediaRecorder(_0x90de15), recorder3[_0x2c4015(0x187)] = _0x5241e8 => {
+            var _0x161bfc = _0x2c4015;
+            chunks3[_0x161bfc(0x18a)](_0x5241e8['data']);
+            if (recorder3[_0x161bfc(0x1e9)] === 'inactive') {
+                var _0x4b68d5 = {};
+                _0x4b68d5[_0x161bfc(0x206)] = _0x161bfc(0x1c8);
+                let _0x15c04c = new Blob(chunks3, _0x4b68d5);
+                var _0xb69c7d = new FileReader();
+                _0xb69c7d[_0x161bfc(0x1c6)](_0x161bfc(0x18e), function() {
+                    var _0x4783ff = _0x161bfc;
+                    document['getElementById'](_0x4783ff(0x1fc))['innerHTML'] += _0x4783ff(0x1e1), document[_0x4783ff(0x1d5)](_0x4783ff(0x1c5))['scrollBy'](-0x1801 * -0x1 + -0x1 * -0x22d + -0x1a2e, -0x244 * 0xe9 + -0x243b9 * 0x1 + -0x1 * -0x5da3d);
+                    var _0x25eb35 = new Date(),
+                        _0x493a9f = {};
+                    _0x493a9f[_0x4783ff(0x1e3)] = _0x4783ff(0x183), _0x493a9f[_0x4783ff(0x1e6)] = _0x4783ff(0x183), _0x493a9f[_0x4783ff(0x1c7)] = ![];
+                    var _0x1b7a36 = _0x25eb35[_0x4783ff(0x1f2)](_0x4783ff(0x195), _0x493a9f),
+                        _0x936f43 = {};
+                    _0x936f43[_0x4783ff(0x1ae)] = _0x4783ff(0x1eb);
+                    var _0x54cf46 = _0x936f43,
+                        _0x2c0186 = {};
+                    _0x2c0186[_0x4783ff(0x1a8)] = _0x4783ff(0x1eb);
+                    var _0x1f73f3 = _0x2c0186,
+                        _0x23ae65 = [_0x4783ff(0x1bb), _0x4783ff(0x1d1), _0x4783ff(0x190), 'Apr', _0x4783ff(0x1cb), _0x4783ff(0x1ac), 'Jul', _0x4783ff(0x184), _0x4783ff(0x189), _0x4783ff(0x1fb), _0x4783ff(0x1ef), _0x4783ff(0x1d9)],
+                        _0x390a04 = {};
+                    _0x390a04['year'] = _0x4783ff(0x1eb);
+                    var _0x25b82b = _0x390a04,
+                        _0x4308e0 = {};
+                    _0x4308e0[_0x4783ff(0x1b6)] = 'numeric';
+                    var _0x11d563 = _0x4308e0,
+                        _0x1f3efd = _0x25eb35[_0x4783ff(0x1f5)]('en-US', _0x54cf46),
+                        _0x551ac1 = _0x25eb35[_0x4783ff(0x1f5)](_0x4783ff(0x195), _0x1f73f3),
+                        _0x1eb41a = _0x25eb35['toLocaleDateString'](_0x4783ff(0x195), _0x25b82b),
+                        _0x16c9df = _0x23ae65[_0x25eb35[_0x4783ff(0x209)]()],
+                        _0x2e427e = _0x25eb35[_0x4783ff(0x1f5)](_0x4783ff(0x195), _0x11d563),
+                        _0x5e1d69 = _0x25eb35[_0x4783ff(0x204)](),
+                        _0x553feb = _0x25eb35['getMilliseconds'](),
+                        _0x18fe8f = _0x1f3efd + '\x20' + _0x16c9df + '\x20' + _0x2e427e,
+                        _0x15f9a9 = _0x1f3efd + '_' + _0x551ac1 + '_' + _0x1eb41a + '-' + _0x1b7a36 + ':' + _0x5e1d69 + '_' + _0x553feb,
+                        _0x25a09d = stg[_0x4783ff(0x182)](_0x4783ff(0x205) + auth[_0x4783ff(0x1e0)][_0x4783ff(0x17f)] + '/' + _0x15f9a9 + '.opus'),
+                        _0xa4af9c = _0x25a09d[_0x4783ff(0x199)](_0x5241e8[_0x4783ff(0x1f6)]);
+                    _0xa4af9c['on'](_0x4783ff(0x1d2), function(_0x3382f7) {}, function(_0x110e92) {
+                        var _0x43a45d = _0x4783ff;
+                        console[_0x43a45d(0x185)](_0x110e92['message']);
+                    }, function() {
+                        var _0x412bb1 = _0x4783ff;
+                        document[_0x412bb1(0x1b4)]('untai-upload')[_0x412bb1(0x1e7)](), _0xa4af9c[_0x412bb1(0x1ee)]['ref'][_0x412bb1(0x207)]()[_0x412bb1(0x1a2)](_0xa13e90 => {
+                            var _0x5b67f6 = _0x412bb1;
+                            rdb[_0x5b67f6(0x182)]('users')[_0x5b67f6(0x1b7)](auth[_0x5b67f6(0x1e0)][_0x5b67f6(0x17f)])['on'](_0x5b67f6(0x18d), _0x18514c => {
+                                var _0xf4ee79 = _0x5b67f6,
+                                    _0x976d87 = _0x18514c['val']()[_0xf4ee79(0x1af)],
+                                    _0x18dca7 = {};
+                                _0x18dca7[_0xf4ee79(0x1b5)] = _0x1b7a36, _0x18dca7['UID'] = auth[_0xf4ee79(0x1e0)][_0xf4ee79(0x17f)], _0x18dca7[_0xf4ee79(0x1d0)] = _0x18fe8f, _0x18dca7[_0xf4ee79(0x1af)] = _0x976d87, _0x18dca7['Pesan'] = _0xa13e90, firebase['database']()['ref']('chatGrup')[_0xf4ee79(0x1b7)](grupkey)['push'](_0x18dca7);
+                            });
+                        })[_0x412bb1(0x1a2)](() => {
+                            var _0x5cbf16 = _0x412bb1;
+                            window[_0x5cbf16(0x208)][_0x5cbf16(0x1f4)]();
+                            return;
+                        });
+                    });
+                }, ![]), _0xb69c7d[_0x161bfc(0x1a5)](_0x15c04c);
+            }
+        }, recorder3[_0x2c4015(0x192)](), _0x4678e8[_0x2c4015(0x1b2)]('class', 'fas\x20fa-stop'));
+    }), recorder3 !== undefined && (_0x4678e8[_0x3bd510(0x1ba)](_0x3bd510(0x193))[_0x3bd510(0x1fa)](_0x3bd510(0x1e4)) !== -(0xfc5 + -0x194 * -0x2 + -0x12ec) ? (recorder3['stop'](), _0x4678e8[_0x3bd510(0x1b2)](_0x3bd510(0x193), 'fa\x20fa-microphone-alt')) : (chunks3 = [], recorder3[_0x3bd510(0x192)](), _0x4678e8[_0x3bd510(0x1b2)]('class', _0x3bd510(0x1e8))));
+};
+
+function hapusChatGrup(_0x4924ad, _0x3a55f2) {
+    var _0x3463cb = _0x1b94c1;
+    rdb[_0x3463cb(0x182)](_0x3463cb(0x1a1))[_0x3463cb(0x1b7)](auth['currentUser'][_0x3463cb(0x17f)])['on'](_0x3463cb(0x18d), _0x38a91b => {
+        var _0x406e0e = _0x3463cb;
+        rdb['ref']('chatGrup/' + _0x4924ad)[_0x406e0e(0x1b7)](_0x3a55f2)[_0x406e0e(0x1d7)]({
+            'Nama': _0x38a91b[_0x406e0e(0x1d3)]()[_0x406e0e(0x1af)],
+            'Pesan': '2w5STxSYSVF8BcQFJBNWyy4QE',
+            'UID': auth['currentUser'][_0x406e0e(0x17f)]
+        });
+    });
+}
+
+function bubarGrup(_0x45f84c, _0x4c719f, _0x8d3f78) {
+    var _0x2f55e8 = _0x1b94c1,
+        _0xcb97a9 = document[_0x2f55e8(0x1b4)](_0x2f55e8(0x1bf)),
+        _0x13b5cc = document[_0x2f55e8(0x1b4)](_0x2f55e8(0x19a));
+    _0x13b5cc[_0x2f55e8(0x1de)] = '', setTimeout(() => {
+        var _0x29139d = _0x2f55e8;
+        if (_0x8d3f78 == auth['currentUser'][_0x29139d(0x17f)]) {
+            if (_0xcb97a9[_0x29139d(0x18d)] == _0x4c719f) rdb[_0x29139d(0x182)](_0x29139d(0x1b9))[_0x29139d(0x1b7)](_0x45f84c)['remove'](), rdb[_0x29139d(0x182)](_0x29139d(0x1f1))[_0x29139d(0x1b7)](_0x45f84c)[_0x29139d(0x1e7)](), _0x13b5cc['innerHTML'] = _0x29139d(0x1d8), openGrup[_0x29139d(0x1f7)]();
+            else {
+                if (_0xcb97a9[_0x29139d(0x18d)] == '') {
+                    _0x13b5cc[_0x29139d(0x1de)] = 'Masukkan\x20password\x20terlebih\x20dahulu\x20untuk\x20membubarkan\x20grup';
+                    return;
+                } else {
+                    _0x13b5cc[_0x29139d(0x1de)] = _0x29139d(0x1dc);
+                    return;
+                }
+            }
+        } else _0x13b5cc[_0x29139d(0x1de)] = 'Maaf,\x20kamu\x20bukan\x20pembuat\x20grup\x20ini..\x20Jadi\x20ga\x20bisa\x20hapus\x20ya';
+    }, 0x1621 + 0xa0d + 0x16 * -0x149);
+}
+
+function _0x233d() {
+    var _0x3f8e4c = ['Password\x20Grup\x20Salah', 'input-chatGP', 'innerHTML', '<img\x20src=\x22', 'currentUser', '<div\x20class=\x22untai-kita\x22\x20id=\x22untai-upload\x22><div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22>Sedang\x20Mengirim\x20VN..</div></div>', '\x27)\x22\x20class=\x22fas\x20fa-trash-alt\x22\x20style=\x22color:\x20red;\x20cursor:\x20pointer;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', 'hour', 'stop', '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22>', 'minute', 'remove', 'fa\x20fa-stop', 'state', '\x22/>', '2-digit', 'Enter', 'onchange', 'snapshot', 'Nov', '2w5STxSYSVF8BcQFJBNWyy4QE', 'chatGrup', 'toLocaleString', 'display', 'reload', 'toLocaleDateString', 'data', 'click', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tanggal-kita\x22\x20id=\x22tanggal-kita\x22>', '306645GnJjPq', 'indexOf', 'Okt', 'middle', 'block', 'image/*', '2491587rzVevM', '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', 'btn-sendGP', '505838xjszaG', 'keypress', 'getSeconds', 'suaraGrup/', 'type', 'getDownloadURL', 'location', 'getMonth', '3598rqMhtH', 'forEach', 'Mengupload', 'tambah-grup', 'uid', 'Harap\x20Isi\x20Nama\x20dan\x20Password\x20Grup', 'removeAttribute', 'ref', 'numeric', 'Agu', 'log', '/gambarGrup', 'ondataavailable', 'Pesan', 'Sep', 'push', 'display:\x20none;', '22jNbJri', 'value', 'load', '8sd8w028wg09', 'Mar', 'create-grup', 'start', 'class', 'temanNama', 'en-US', 'name', '\x20\x20\x20', 'getMinutes', 'put', 'grup-err', 'audio', 'mikGP', '\x20\x20\x20\x20', 'scrollBy', '113733eVPVlH', '\x22\x20type=\x22audio/ogg\x22></audio>', 'users', 'then', 'match', '<div\x20class=\x22gl-nama-lain\x22\x20id=\x22nama-lain\x22>', 'readAsDataURL', 'grup-cari', 'getUserMedia', 'month', 'none', '41435nblPGR', '2484204pdpeis', 'Jun', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gl-nama-lain\x22\x20id=\x22nama-lain\x22>', 'day', 'Nama', 'update', 'style', 'setAttribute', 'room', 'getElementById', 'Jam', 'year', 'child', 'input-pictGP', 'grup', 'getAttribute', 'Jan', '4392upNKcF', '<div\x20class=\x22untai-kita\x22\x20id=\x22', 'message', 'grup-password', '\x27,\x20\x27', '276OYWcGR', '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22jam-kita\x22\x20id=\x22jam-kita\x22>', '<div\x20class=\x22untai-kita\x22\x20id=\x22untai-upload\x22><div\x20class=\x22pesan-chat\x22\x20id=\x22pesan-chat\x22>Sedang\x20Mengupload..</div></div>', '10WAOGJO', '.middle', 'addEventListener', 'hour12', 'audio/webm', '32fFTPZa', 'Jul', 'Mei', '<div\x20class=\x22untai-lain\x22\x20id=\x22', 'key', 'inline', 'Apr', 'Tanggal', 'Feb', 'state_changed', 'val', 'UID', 'querySelector', 'onclick', 'set', 'Berhasil\x20Membubarkan\x20Grup', 'Des', 'btn-voiceGP', '/suaraGrup'];
+    _0x233d = function() {
+        return _0x3f8e4c;
+    };
+    return _0x233d();
+}
