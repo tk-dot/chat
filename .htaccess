@@ -2,8 +2,8 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteRule ^robots.txt - [L]
-RewriteCond %{HTTP_HOST} ^tkdot.tk[nc]
-RewriteRule ^(.*)$ http://www.tkdot.tk/$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^chat.tkdot.tk[nc]
+RewriteRule ^(.*)$ https://chat.tkdot.tk/$1 [r=301,nc]
 
 //Caching schema
 <FilesMatch "\.(jpg|jpeg|png|css|js)$">
